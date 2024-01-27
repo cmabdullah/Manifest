@@ -8,9 +8,9 @@ org:
   jobrunr:
     dashboard:
       enabled: false
-    background-job-server:
-      enabled: true
-      worker-count: 2
+  background-job-server:
+    enabled: true
+    worker-count: 2
 
 spring:
   output:
