@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8001
 
 logging:
   level:
@@ -7,10 +7,10 @@ logging:
 org:
   jobrunr:
     dashboard:
-      enabled: false
+      enabled: true
   background-job-server:
-    enabled: true
-    worker-count: 2
+    enabled: false
+    worker-count: 1
 
 spring:
   output:
